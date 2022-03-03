@@ -139,12 +139,12 @@ body{
 	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.3);
 }
 
-/*.card{
+.card{
 	transition: 1s;
 }
 
 .card:hover{
-	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.3);*/
+	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.3);
 }
 
 
