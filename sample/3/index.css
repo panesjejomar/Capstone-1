@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.nav{
+	background-color: #04001A;
+}
+
+.nav1{
+	text-align: right;
+	padding-left: 150px;
+	font-size: 12px;
+
+}
+
+.down{
+	padding: 5px;
+	border: 1px solid whitesmoke;
+	background-color: green;
+
+}
+
+.dl{
+	border: 1px solid whitesmoke;
+	background-color: green;
+}
+
+.nav1 ul li{
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	color: grey;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.nav1 ul li:hover{
+	color: white;
+}
+
+.nav2{
+	text-align: center;
+}
+
+.navitems img{
+	height: 2rem;
+	cursor: pointer;
+}
+
+.navitems{
+	color:grey;
+	display: inline-block;
+	vertical-align: center;
+	padding-bottom: 3rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.navitems:hover{
+	color:  white;
+	/*font-weight: bold;*/
+}
+
+.main{
+	background-color: #001133;
+	height: 100vh;
+}
+
+.secnav{
+	background: #52C0CE;
+	background: -moz-linear-gradient(45deg, #52C0CE 0%, #1C6EA4 100%, #11312F 100%);
+	background: -webkit-linear-gradient(45deg, #52C0CE 0%, #1C6EA4 100%, #11312F 100%);
+	background: linear-gradient(45deg, #52C0CE 0%, #1C6EA4 100%, #11312F 100%);
+}
+
+.secnav li{
+	color: #E6EAFF;
+	display: inline-block;
+	margin: 2px;
+	padding: 0.3rem 1rem;
+}
+
+.search{
+	float: right;
+/*	border: 1px solid #E6EAFF;*/
+}
+
+.search input{
+	height: 100%;
+	margin-left: 0;
+	cursor: pointer;
+}
+
+.search button{
+	cursor: pointer;
+}
+
+.secnavitems:hover{
+	background: #52C0CE;
+	background: -moz-linear-gradient(45deg, #52C0CE 0%, #1C6EA4 100%, #11312F 100%);
+	background: -webkit-linear-gradient(45deg, #52C0CE 0%, #1C6EA4 100%, #11312F 100%);
+	background: linear-gradient(45deg, #52C0CE 0%, #1C6EA4 100%, #11312F 100%);
+}
+
+.search input:hover{
+	border-color: #004D4D;
+}
+.search button:hover{
+	border-color: #004D4D;
+}
+
+
+
+.showcase{
+	margin-top: 20vh;
+}
+
+.showcase h3{
+	color: #E6EAFF;
+	margin-bottom: 2rem;
+}
+
+.showcaseimg{
+	background-image: url(dota2.png);
+	height: 50vh;
+	width: 100%;
+	justify-content: center;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 10vh;
+}
+
+.showcaseimg .img1{
+	display: inline-flex;
+	flex-direction: left;
+	height: 50vh;
+	width: auto;
+}
+
+.showcaseimg .img2{
+	display: inline-flex;
+	flex-direction: left;
+	height: 50vh;
+	width: 60vh;
+}
+
+.showcase2{
+	color: #E6EAFF;
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+

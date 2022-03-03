@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif, 'Raleway';
+}
+
+body{
+	background-image: url(./images/bg.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	min-height: 100vh;
+}
+
+.header{
+	margin-top: 20vh;
+	min-height: 40vh;
+	width: 100%;
+	background-color: #001A33;
+	color:  white;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	position: relative;
+}
+
+#id-pic{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: -80px;
+	border-radius: 50%;
+}
+
+.navbar{
+	background-color: #E6EAFF;
+}
+
+.about{
+	background-color: #ffffff;
+}
+
+#abt{
+	font-size: 2rem;
+}
+
+.quote{
+	background-color: #E6EAFF;
+	font-size: 1.5rem;
+	color: grey;
+	margin-top: 2rem;
+	transition: 0.7s;
+}
+
+.quote:hover{
+	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.5);
+}
+
+.jumbotron{
+	transition: 0.7s;
+}
+
+.jumbotron:hover{
+	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.5);
+}
+
+#submit-butt{
+	border-radius: 20px;
+	background-color: #E6EAFF;
+	border: 1px solid #001A33;
+}
+
+#submit-butt:hover{
+	border-radius: 20px;
+	background-color: #001A33;
+	border: 1px solid #001A33;
+	color: white;
+}
+
+.things{
+	background-color: #ffffff;
+}
+
+.title{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #E6EAFF;
+}
+
+.footer{
+	background-color: #001A33;
+	color:  white;
+}
+
+/*#testimonials{
+	min-height: 60vh;
+}*/
+
+/*.himym{
+	border-radius: 5px;
+}*/
+
+.nav-link::after{
+	content: "";
+	width: 0;
+	height: 2px;
+	background-color: #001A33;
+	display: block;
+	/*margin: auto;*/ /*from center*/
+	left: 0;	/*from left*/
+	transition: 0.9s;
+}
+
+.nav-link::before{
+	content: "";
+	width: 0;
+	height: 2px;
+	background-color: #001A33;
+	display: block;
+	/*margin: auto;*/ /*from center*/
+	left: 0;	/*from left*/
+	transition: 0.9s;
+}
+
+.nav-link:hover::after{
+	width: 100%;
+}
+
+.nav-link:hover::before{
+	width: 100%;
+}
+
+.boxbox{
+	transition: 0.7s;
+}
+
+.boxbox:hover{
+	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.3);
+}
+
+/*.card{
+	transition: 1s;
+}
+
+.card:hover{
+	box-shadow: 0 10px 20px 0px rgba(26, 0, 51, 0.3);*/
+}
+
+
+
+.fa{
+	color: white;
+}
+
